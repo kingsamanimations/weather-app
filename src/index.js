@@ -82,7 +82,11 @@ function displayWeather(currentWeather) {
 }
 
 function getIcon(mainWeather) {
-    document.getElementById("weather-icon").src = `./icons/${mainWeather}.svg`;
+  const iconEl = document.getElementById("weather-icon");
+  if (iconEl) {
+    iconEl.src = `./icons/${mainWeather}.svg`;
+    console.log("Icon src set to:", iconEl.src); // To debug
+  }
 }
 
 function clearDOM() {
