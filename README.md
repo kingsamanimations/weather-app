@@ -4,4 +4,4 @@ This is my weather app from The Odin Project. Had some help from references with
 
 View it here:
 =======
-https://kingsamanimations.github.io/TBA/
+https://kingsamanimations.github.io/weather-app/
